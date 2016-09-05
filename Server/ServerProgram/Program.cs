@@ -3,24 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Net;
-using System.Net.Sockets;
 
-namespace Server
+namespace ServerProgram
 {
     class Program
     {
-        
         static void Main(string[] args)
         {
-            
-             Server server;
-
-            server = new Server();
-            server.startServer();
-
         }
-
-
     }
 }
