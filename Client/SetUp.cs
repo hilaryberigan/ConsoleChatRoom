@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleChatRoomServer
+namespace Client
 {
-    class Node
+    class SetUp
     {
     }
 }

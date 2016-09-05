@@ -3,13 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Net;
+using System.Net.Sockets;
 
-namespace ConsoleChatRoomClient
+namespace Server
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
+            
+             Server server;
+
+            server = new Server();
+            server.startServer();
+
         }
+
+
     }
 }
